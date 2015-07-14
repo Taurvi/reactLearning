@@ -57,8 +57,8 @@ var SearchBar = React.createClass({
 
     render: function() {
         return (
-            <div class="searchBar">
-                <input type="text" placeholder="Search" />
+            <div className="searchBar">
+                <input type="text" className="form-control input-lg" placeholder="Search" />
             </div>
         );
     }

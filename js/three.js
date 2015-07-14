@@ -92,8 +92,8 @@ var SearchBar = React.createClass({
 
     render: function() {
         return (
-            <div class="searchBar">
-                <input type="text" placeholder="Search" onChange={this.props.onChange} />
+            <div className="searchBar">
+                <input type="text" className="form-control input-lg" placeholder="Search" onChange={this.props.onChange} />
             </div>
         );
     }
